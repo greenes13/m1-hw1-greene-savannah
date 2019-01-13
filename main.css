@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(fonts/bebas/bebas.ttf);
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	background-color: #ffffff;
+}
+
+
+/* START STICKY FOOTER */
+
+.site {
+	display: flex;
+	min-height: 100vh; 
+	flex-direction: column; 
+}
+
+.site-content {
+	flex: 1; 
+}
+
+/* END STICKY FOOTER */
+
+header {
+	background-color: #ab8bc0; 
+	width: 100%;
+	height: 50%;
+}
+
+/* START NAVIGATION */
+
+nav {
+	font-family: ''Montserrat', sans-serif';
+	font-weight: bold;
+	background-color: #ab8bc0;
+	padding-top: 5%;
+	padding-bottom: 4%;
+}
+
+nav ul {
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	color: #ffffff;
+}
+
+nav ul li {
+	display: inline;
+	font-size: .6rem;
+	padding: 1%;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav ul li a:hover, nav ul li a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#highlight {
+	color: #f5ee31;
+}
+/* END NAVIGATION */
+
+main {
+	width: 100%;
+	margin: auto;
+}
+
+article {
+	background-color: #3c2313;
+	color: #3c2313;
+	height: 18vh;
+	font-size: 2rem;
+}
+
+h1 {
+	font-family: Bebas;
+	letter-spacing: 4px;
+	width: 50%;
+	margin: auto;
+	padding: 10%;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #ab8bc0;
+}
+
+h2 {
+	font-family: Bebas;
+	letter-spacing: 4px;
+	width: 50%;
+	margin: auto;
+	padding: 10%;
+	text-align: center;
+	font-size: 1rem;
+	color: #ab8bc0;
+}
+
